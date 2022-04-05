@@ -1,0 +1,42 @@
+# Exercise 1:
+print('You will be asked to enter a value 10 times')
+a = int(input('Enter a value: '))
+b = int(input('Enter a value: '))
+c = int(input('Enter a value: '))
+d = int(input('Enter a value: '))
+e = int(input('Enter a value: '))
+f = int(input('Enter a value: '))
+g = int(input('Enter a value: '))
+h = int(input('Enter a value: '))
+i = int(input('Enter a value: '))
+j = int(input('Enter a value: '))
+
+list = [a, b, c, d, e, f, g, h, i, j]
+listOdd = [] 
+
+if a%2==0 and b%2==0 and c%2==0 and d%2==0 and e%2==0 and f%2==0 and g%2==0 and h%2==0 and i%2==0 and j%2==0: 
+    print('no odd values were entered')
+else:
+    if a%2==1:
+        listOdd.append(int(a))
+    if b%2==1:
+        listOdd.append(int(b))
+    if c%2==1:
+        listOdd.append(int(c))
+    if d%2==1:
+        listOdd.append(int(d))
+    if e%2==1:
+        listOdd.append(int(e))
+    if f%2==1:
+        listOdd.append(int(f))
+    if g%2==1:
+        listOdd.append(int(g))
+    if h%2==1:
+        listOdd.append(int(h))
+    if i%2==1:
+        listOdd.append(int(i))
+    if j%2==1:
+        listOdd.append(int(j))
+print(listOdd)
+print(max(listOdd), 'is the largest odd value')
+

@@ -1,0 +1,5 @@
+i1=input("Write one integer ")
+if i1%2=1:
+    print(i1)
+else:
+    print("you did not enter an odd number")
